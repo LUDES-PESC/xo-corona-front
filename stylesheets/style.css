@@ -9,6 +9,14 @@ html, body {
     color: #ffffff;
 }
 
+.center-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 h1 {
     font-size: 55px;
     font-weight: bold;
@@ -36,7 +44,73 @@ span.green {
 
 /* LOGIN */
 
-#login img.icon1 {
-    height: 122px;
-    width: 121px;
+.home-title {
+    position: relative;
+    margin-bottom: 70px;
+    left: 10px;
+}
+
+#loginButton {
+    margin-top: 30px;
+}
+
+#login img {
+    position: absolute;
+    z-index:-1;
+}
+
+#login img.img0 {
+    height: 110px;
+    width: 120px;
+    left: -46px;
+    top: -24px;
+}
+
+#login img.img1 {
+    opacity: 0.2;
+    top: -80px;
+  overflow: hidden;
+}
+
+#login img.img2 {
+    opacity: 0.2;
+    left: -500px;
+    top: 300px;
+    overflow: hidden;
+}
+
+#login img.img3 {
+    opacity: 0.2;
+    right: -500px;
+    top: 400px;
+    overflow: hidden;
+}
+
+#login img.img4 {
+    opacity: 0.2;
+    left: -400px;
+    top: -200px;
+    overflow: hidden;
+}
+
+#login .form-control {
+    background-color: #37465B;
+    border: 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 40px;
+
+}
+
+#login .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.btn-green {
+    background-color: #5AFFE7;
+    color: #37465B;
+    box-shadow: 0px 3px 6px #000000;
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
 }
